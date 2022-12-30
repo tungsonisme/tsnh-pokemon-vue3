@@ -21,7 +21,8 @@
     ]
   },
   "dependencies": {
-    "tsnh-macos-kernel": "^1.0.0",
+    "pinia": "^2.0.28",
+    "tsnh-macos-kernel": "^1.1.0",
     "vue": "^3.2.45"
   },
   "devDependencies": {
