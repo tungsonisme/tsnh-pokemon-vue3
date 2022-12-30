@@ -3,5 +3,5 @@ import HelloWorld from '../components/HelloWorld.vue';
 </script>
 
 <template>
-  <HelloWorld msg="Pokemon Setting App" />
+  <HelloWorld msg="PKM Setting App" />
 </template>

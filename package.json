@@ -1,5 +1,5 @@
 {
-  "name": "tsnh-pokemon-vue3",
+  "name": "@tsnh/pokemon",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -21,6 +21,7 @@
     ]
   },
   "dependencies": {
+    "tsnh-macos-kernel": "^1.0.0",
     "vue": "^3.2.45"
   },
   "devDependencies": {

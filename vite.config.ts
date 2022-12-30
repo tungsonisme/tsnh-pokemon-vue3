@@ -12,7 +12,7 @@ export default defineConfig(() => {
         name: 'remote-app',
         filename: 'remoteEntry.js',
         exposes: initializeExposes(),
-        shared: ['vue'],
+        shared: ['vue', 'tsnh-macos-kernel'],
       }),
     ],
   };
