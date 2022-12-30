@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:prod": "nodemon --watch './src/*' -x \"pnpm preview\" -e ts,vue",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview",
+    "preview": "pnpm build && vite preview",
     "prepare": "husky install",
     "eslint": "./node_modules/.bin/eslint '**/*.{ts,vue}'",
     "stylelint": "./node_modules/.bin/stylelint '**/*.{scss,vue}'"
@@ -34,6 +35,7 @@
     "eslint-plugin-vue": "^9.8.0",
     "husky": "^8.0.0",
     "lint-staged": "^13.1.0",
+    "nodemon": "^2.0.20",
     "postcss": "^8.4.20",
     "postcss-html": "^1.5.0",
     "prettier": "^2.8.0",
