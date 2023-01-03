@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import HelloWorld from '../components/HelloWorld.vue';
-</script>
-
 <template>
-  <HelloWorld msg="PKM Setting App" />
+  <div>PKM Setting</div>
 </template>
